@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jana’s website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .navbar{
+    justify-content: space-evenly;
+  }
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<!-- <div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
+</div>-->
+
+ <!-- Header -->
+<div class="header">
+  <h1>Jana’s website</h1>
+  <p>In This Website We Will Present My Favourite Topics </p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="/task(4)Home.html">Home</a>
+  <a href="/task(4)contact us.html">Contact Us</a>
+  <a href="/search.html">Search</a>
+  <a href="/News.html">News</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <img src="/images/task.jpg" height="200" width="200"/>
+    <p>I'm Jana Qoura an Frontend Development learner and Ai and data science student .</p>
+    <h3>Flowers</h3>
+    <p>Flowers thrive with sunlight, water, and patience. Their colors brighten days; their scent lingers softly. Brief but beautiful, like quiet happiness.</p>
+     <br>
+     <br>
+     <img src="/images/download (2).jpg" width="250"height="250">
+     <br>
+     <!-- <img src="/download (3).jpg"width="250"height="250">
+     <br> -->
+     <img src="/images/download (4).jpg"width="250"height="250">
+     <br>
+    </div>
+  <div class="main">
+    <h2>Topic one</h2>
+    <h5>Title description, Dec 7, 2024</h5>
+    <img src="/images/smart word.png"width="600"height="300">
+    <p>Smart Goals</p>
+    <p>SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound, ensuring clarity and focus. By setting clear objectives, tracking progress, and meeting deadlines, they enhance accountability and success. Whether for personal growth or professional planning, SMART goals provide a structured approach to turning ambitions into actionable, realistic, and prioritized results</p>
+    <br>
+    <br>
+    <br>
+    <h2>Topic two</h2>
+    <h5>Title description, Sep 2, 2024</h5>
+    <img src="/images/download.jpg"width="600"height="300">
+    <p>Mental health</p>
+    <p>True mental wellness comes from balance—acknowledging struggles while nurturing resilience. Therapy, self-care, and honest conversations dissolve stigma. Small daily habits—deep breaths, walks, gratitude—rebuild strength. Pain may linger, but so does hope. Healing isn’t linear; it’s messy, human. Rest is productive. Joy hides in ordinary moments. You’re allowed to ask for help, to pause, to grow at your own pace. Kindness, to yourself and others, is the quiet revolution.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Thanks For Your Attention</h2>
+</div>
+
+</body>
+</html>
+
+
